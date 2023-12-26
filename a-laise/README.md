@@ -1,7 +1,5 @@
 # Résolution : À l'aise
 
-
-
 ## Comprendre le chiffrement de Vigenère
 
 Le chiffrement de Vigenère est une méthode de cryptographie polyalphabétique. Il utilise une clef de chiffrement pour décaler les lettres du message original.
@@ -20,15 +18,11 @@ La lettre **H** (7e lettre de l'alphabet) est décalée de 10 positions car **K*
 
 ⚠ Dans le chiffrement de Vigenère, l'alphabet est **indexé à partir de 0**.
 
-
-
 ## Messsage a déchiffrer
 
 Le message a déchiffrer dans le cadre de l'épreuve est le suivant :
 
 > Gqfltwj emgj clgfv ! Aqltj rjqhjsksg ekxuaqs, ua xtwk n'feuguvwb gkwp xwj, ujts f'npxkqvjgw nw tjuwcz ugwygjtfkf qz uw efezg sqk gspwonu. Jgsfwb-aqmu f Pspygk nj 29 cntnn hqzt dg igtwy fw xtvjg rkkunqf.
-
-
 
 ## Script de déchiffrement en PHP
 
@@ -73,8 +67,6 @@ echo decryptVigenere($ciphertext, $key);
 - **Lignes 8-21**: Boucle sur chaque caractère du texte chiffré. Si le caractère est dans l'alphabet, le déchiffrement est effectué. Sinon, le caractère est ajouté tel quel.
   
   **Le reste :** Explicit 😃
-  
-   
 
 ## Résultat du déchiffrement
 
@@ -82,12 +74,8 @@ Après exécution du script, voici le message déchiffré :
 
 > BONJOUR CHER AGENT ! VOTRE PROCHAINE MISSION, SI VOUS L'ACCEPTEZ BIEN SUR, SERA D'INFILTRER LE RESEAU SOUTERRAIN OU SE CACHE NOS ENNEMIS. RENDEZ-VOUS A NANTES LE 29 AVRIL POUR LE DEBUT DE VOTRE MISSION.
 
-
-
 ## Conclusion ✅
 
 Le flag pour cette épreuve est le nom de la ville mentionnée dans le message, soit **Nantes**.
 
 Par bcicada.
-
-
